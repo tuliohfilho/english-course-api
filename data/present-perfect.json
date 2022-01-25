@@ -1,0 +1,76 @@
+{
+    "longForm": [
+        {
+            "verb": "got",
+            "subject": "I",
+            "auxiliaryVerb": "have"
+        },
+        {
+            "verb": "got",
+            "subject": "You",
+            "auxiliaryVerb": "have"
+        },
+        {
+            "verb": "got",
+            "subject": "We",
+            "auxiliaryVerb": "have"
+        },
+        {
+            "verb": "got",
+            "subject": "They",
+            "auxiliaryVerb": "have"
+        },
+        {
+            "verb": "got",
+            "subject": "He",
+            "auxiliaryVerb": "has"
+        },
+        {
+            "verb": "got",
+            "subject": "She",
+            "auxiliaryVerb": "has"
+        },
+        {
+            "verb": "got",
+            "subject": "It",
+            "auxiliaryVerb": "has"
+        }
+    ],
+    "shortForm": [
+        {
+            "verb": "got",
+            "subject": "I",
+            "auxiliaryVerb": "'ve"
+        },
+        {
+            "verb": "got",
+            "subject": "You",
+            "auxiliaryVerb": "'ve"
+        },
+        {
+            "verb": "got",
+            "subject": "We",
+            "auxiliaryVerb": "'ve"
+        },
+        {
+            "verb": "got",
+            "subject": "They",
+            "auxiliaryVerb": "'ve"
+        },
+        {
+            "verb": "got",
+            "subject": "He",
+            "auxiliaryVerb": "'s"
+        },
+        {
+            "verb": "got",
+            "subject": "She",
+            "auxiliaryVerb": "'s"
+        },
+        {
+            "verb": "got",
+            "subject": "It",
+            "auxiliaryVerb": "'s"
+        }
+    ]
+}
