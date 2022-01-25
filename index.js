@@ -9,10 +9,11 @@ app.use(
 
 app.use(express.json());
 
-const irrVerbsRoutes = require('./routes/irregularVerbsRoutes');
+const irrVerbsRoutes = require('./api/routes/irregularVerbsRoutes');
 app.use('/irregular-verbs', irrVerbsRoutes);
 
-const presentPerfectRoutes = require('./routes/presentPerfectRoutes');
+const presentPerfectRoutes = require('./api/routes/presentPerfectRoutes');
 app.use('/present-perfect', presentPerfectRoutes);
 
-app.listen(5000);
+const PORT = process.env.PORT || 5050;
+app.listen(PORT, () => console.log(`Server is running in port ${PORT}`));
