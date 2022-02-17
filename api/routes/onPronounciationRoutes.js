@@ -1,6 +1,6 @@
 const router = require("express").Router();
 
-const { getAll } = require("../controllers/presentPerfectController");
+const { getAll } = require("../controllers/onPronounciationController");
 
 router.get("/", getAll);
 

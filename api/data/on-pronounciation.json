@@ -1,0 +1,76 @@
+{
+  "simplePresenteTense": [
+    {
+      "subject": "I",
+      "auxiliaryVerb": "do",
+      "pronounciation": "Duái"
+    },
+    {
+      "subject": "You",
+      "auxiliaryVerb": "do",
+      "pronounciation": "Diu"
+    },
+    {
+      "subject": "We",
+      "auxiliaryVerb": "do",
+      "pronounciation": "Duí"
+    },
+    {
+      "subject": "They",
+      "auxiliaryVerb": "do",
+      "pronounciation": "Dúdei / Dúrei"
+    },
+    {
+      "subject": "He",
+      "auxiliaryVerb": "does",
+      "pronounciation": "Dázi"
+    },
+    {
+      "subject": "She",
+      "auxiliaryVerb": "does",
+      "pronounciation": "Dáshi"
+    },
+    {
+      "subject": "It",
+      "auxiliaryVerb": "does",
+      "pronounciation": "Dázêt"
+    }
+  ],
+  "simplePastTense": [
+    {
+      "subject": "I",
+      "auxiliaryVerb": "did",
+      "pronounciation": "Dêdai / Dêrai"
+    },
+    {
+      "subject": "You",
+      "auxiliaryVerb": "did",
+      "pronounciation": "Dêdju"
+    },
+    {
+      "subject": "We",
+      "auxiliaryVerb": "did",
+      "pronounciation": "Dêdui"
+    },
+    {
+      "subject": "They",
+      "auxiliaryVerb": "did",
+      "pronounciation": "DêDei / Dêrei"
+    },
+    {
+      "subject": "He",
+      "auxiliaryVerb": "did",
+      "pronounciation": "Dêri"
+    },
+    {
+      "subject": "She",
+      "auxiliaryVerb": "did",
+      "pronounciation": "Dêdshi"
+    },
+    {
+      "subject": "It",
+      "auxiliaryVerb": "did",
+      "pronounciation": "got"
+    }
+  ]
+}
