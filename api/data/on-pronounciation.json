@@ -28,19 +28,19 @@
       "subject": "He",
       "auxiliaryVerb": "does",
       "pronounciation": "Dázi",
-      "audioName": "do_he.mp3"
+      "audioName": "does_he.mp3"
     },
     {
       "subject": "She",
       "auxiliaryVerb": "does",
       "pronounciation": "Dáshi",
-      "audioName": "do_she.mp3"
+      "audioName": "does_she.mp3"
     },
     {
       "subject": "It",
       "auxiliaryVerb": "does",
       "pronounciation": "Dázêt",
-      "audioName": "do_it.mp3"
+      "audioName": "does_it.mp3"
     }
   ],
   "simplePastTense": [
