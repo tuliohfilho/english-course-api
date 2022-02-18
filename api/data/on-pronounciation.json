@@ -3,74 +3,88 @@
     {
       "subject": "I",
       "auxiliaryVerb": "do",
-      "pronounciation": "Duái"
+      "pronounciation": "Duái",
+      "audioName": "do_i.mp3"
     },
     {
       "subject": "You",
       "auxiliaryVerb": "do",
-      "pronounciation": "Diu"
+      "pronounciation": "Diu",
+      "audioName": "do_you.mp3"
     },
     {
       "subject": "We",
       "auxiliaryVerb": "do",
-      "pronounciation": "Duí"
+      "pronounciation": "Duí",
+      "audioName": "do_we.mp3"
     },
     {
       "subject": "They",
       "auxiliaryVerb": "do",
-      "pronounciation": "Dúdei / Dúrei"
+      "pronounciation": "Dúdei / Dúrei",
+      "audioName": "do_they.mp3"
     },
     {
       "subject": "He",
       "auxiliaryVerb": "does",
-      "pronounciation": "Dázi"
+      "pronounciation": "Dázi",
+      "audioName": "do_he.mp3"
     },
     {
       "subject": "She",
       "auxiliaryVerb": "does",
-      "pronounciation": "Dáshi"
+      "pronounciation": "Dáshi",
+      "audioName": "do_she.mp3"
     },
     {
       "subject": "It",
       "auxiliaryVerb": "does",
-      "pronounciation": "Dázêt"
+      "pronounciation": "Dázêt",
+      "audioName": "do_it.mp3"
     }
   ],
   "simplePastTense": [
     {
       "subject": "I",
       "auxiliaryVerb": "did",
-      "pronounciation": "Dêdai / Dêrai"
+      "pronounciation": "Dêdai / Dêrai",
+      "audioName": "did_i.mp3"
     },
     {
       "subject": "You",
       "auxiliaryVerb": "did",
-      "pronounciation": "Dêdju"
+      "pronounciation": "Dêdju",
+      "audioName": "did_you.mp3"
     },
     {
       "subject": "We",
       "auxiliaryVerb": "did",
-      "pronounciation": "Dêdui"
+      "pronounciation": "Dêdui",
+      "audioName": "did_we.mp3"
     },
     {
       "subject": "They",
       "auxiliaryVerb": "did",
-      "pronounciation": "DêDei / Dêrei"
+      "pronounciation": "DêDei / Dêrei",
+      "audioName": "did_they.mp3"
     },
     {
       "subject": "He",
       "auxiliaryVerb": "did",
-      "pronounciation": "Dêri"
+      "pronounciation": "Dêri",
+      "audioName": "did_he.mp3"
     },
     {
       "subject": "She",
       "auxiliaryVerb": "did",
-      "pronounciation": "Dêdshi"
+      "pronounciation": "Dêdshi",
+      "audioName": "did_she.mp3"
     },
     {
       "subject": "It",
       "auxiliaryVerb": "did",
-      "pronounciation": "got"
+      "pronounciation": "got",
+      "audioName": "did_it.mp3"
     }
   ]
 }
