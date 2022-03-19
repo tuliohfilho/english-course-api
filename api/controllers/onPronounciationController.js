@@ -1,4 +1,4 @@
-const getAllDate = require("../data/on-pronounciation.json");
+const getAllDate = require("../data/on-pronounciation");
 
 exports.getAll = (req, res) => {
   try {

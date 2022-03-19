@@ -1,4 +1,4 @@
-const getAllDate = require("../data/irregular-verbs.json");
+const getAllDate = require("../data/irregular-verbs");
 
 exports.getAll = (req, res) => {
   try {

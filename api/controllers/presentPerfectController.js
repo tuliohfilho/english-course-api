@@ -1,4 +1,4 @@
-const getAllDate = require("../data/present-perfect.json");
+const getAllDate = require("../data/present-perfect");
 
 exports.getAll = (req, res) => {
   try {
