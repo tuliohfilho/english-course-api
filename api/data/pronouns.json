@@ -166,5 +166,47 @@
       "subject": "Theirs",
       "translation": "Deles/Delas"
     }
+  ],
+  "reflexivePronoun": [
+    {
+      "id": 33,
+      "subject": "Myself",
+      "translation": "A Mim Mesmo/-me"
+    },
+    {
+      "id": 34,
+      "subject": "Yourself",
+      "translation": "A Ti/A Você Mesmo(a)/-te/-se"
+    },
+    {
+      "id": 35,
+      "subject": "Himself",
+      "translation": "A Si/A Ele Mesmo/-se"
+    },
+    {
+      "id": 36,
+      "subject": "Herself",
+      "translation": "A Si/A Ela Mesma/-se"
+    },
+    {
+      "id": 37,
+      "subject": "Itself",
+      "translation": "A Si Mesmo(a)/-se"
+    },
+    {
+      "id": 38,
+      "subject": "Ourselves",
+      "translation": "A Nós Mesmo(as)/-nos"
+    },
+    {
+      "id": 39,
+      "subject": "Yourselves",
+      "translation": "A Vós, A Vocês Mesmos(as)/-vos/-se"
+    },
+    {
+      "id": 40,
+      "subject": "Themselves",
+      "translation": "A Si/A Eles Mesmos/ A Elas Mesmas/-se"
+    }
   ]
 }
