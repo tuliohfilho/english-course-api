@@ -3,210 +3,248 @@
     {
       "id": 1,
       "subject": "I",
-      "translation": "Eu"
+      "translations": ["Eu"]
     },
     {
       "id": 2,
       "subject": "You",
-      "translation": "Você/Tu"
+      "translations": ["Você", "Tu"]
     },
     {
       "id": 3,
       "subject": "He",
-      "translation": "Ele"
+      "translations": ["Ele"]
     },
     {
       "id": 4,
       "subject": "She",
-      "translation": "Ela"
+      "translations": ["Ela"]
     },
     {
       "id": 5,
       "subject": "It",
-      "translation": "Ela/Ela"
+      "translations": ["Ela", "Ela"]
     },
     {
       "id": 6,
       "subject": "We",
-      "translation": "Nós"
+      "translations": ["Nós"]
     },
     {
       "id": 7,
       "subject": "You",
-      "translation": "Vocês/Vós"
+      "translations": ["Vocês", "Vós"]
     },
     {
       "id": 8,
       "subject": "They",
-      "translation": "Eles/Elas"
+      "translations": ["Eles", "Elas"]
     }
   ],
   "objectPronoun": [
     {
       "id": 9,
       "subject": "Me",
-      "translation": "Me/Mim"
+      "translations": ["Me", "Mim"]
     },
     {
       "id": 10,
       "subject": "You",
-      "translation": "Lhe/o/a/Te/Ti/A Você"
+      "translations": ["Lhe", "o", "a", "Te", "Ti", "A Você"]
     },
     {
       "id": 11,
       "subject": "Him",
-      "translation": "Lhe/o/A Ele"
+      "translations": ["Lhe", "o", "A Ele"]
     },
     {
       "id": 12,
       "subject": "Her",
-      "translation": "Lhe/a/A Ela"
+      "translations": ["Lhe", "a", "A Ela"]
     },
     {
       "id": 13,
       "subject": "It",
-      "translation": "Lhe/o/a"
+      "translations": ["Lhe", "o", "a"]
     },
     {
       "id": 14,
       "subject": "Us",
-      "translation": "Nos"
+      "translations": ["Nos"]
     },
     {
       "id": 15,
       "subject": "You",
-      "translation": "Vos/Lhes/A Vocês"
+      "translations": ["Vos", "Lhes", "A Vocês"]
     },
     {
       "id": 16,
       "subject": "Them",
-      "translation": "Lhes/Os/As"
+      "translations": ["Lhes", "Os", "As"]
     }
   ],
   "possessiveAdjective": [
     {
       "id": 17,
       "subject": "My",
-      "translation": "Meu(s)/Minha(s)"
+      "translations": ["Meu", "Minha", "Meus", "Minhas"]
     },
     {
       "id": 18,
       "subject": "Your",
-      "translation": "Teu(s)/Tua(s)/Seu(s)/Sua(s)"
+      "translations": [
+        "Teu(s)",
+        "Tua(s)",
+        "Seu(s)",
+        "Sua(s)",
+        "Teus",
+        "Tuas",
+        "Seus",
+        "Suas"
+      ]
     },
     {
       "id": 19,
       "subject": "His",
-      "translation": "Dele(s)"
+      "translations": ["Dele", "Deles"]
     },
     {
       "id": 20,
       "subject": "Her",
-      "translation": "Dela(s)"
+      "translations": ["Dela", "Delas"]
     },
     {
       "id": 21,
       "subject": "Its",
-      "translation": "Dele(s)/Dela(s)"
+      "translations": ["Dele", "Dela", "Deles", "Delas"]
     },
     {
       "id": 22,
       "subject": "Our",
-      "translation": "Nosso(s)/Nossa(s)"
+      "translations": ["Nosso", "Nossa", "Nossos", "Nossas"]
     },
     {
       "id": 23,
       "subject": "Your",
-      "translation": "Vosso(s)/Vossa(s)/Seu(s)/Sua(s)/De Vocês"
+      "translations": [
+        "Vosso",
+        "Vossa",
+        "Seu",
+        "Sua",
+        "Vossos",
+        "Vossas",
+        "Seus",
+        "Suas",
+        "De Vocês"
+      ]
     },
     {
       "id": 24,
       "subject": "Their",
-      "translation": "Deles/Delas"
+      "translations": ["Deles", "Delas"]
     }
   ],
   "possessivePronoun": [
     {
       "id": 25,
       "subject": "Mine",
-      "translation": "Meu(s)/Minha(s)"
+      "translations": ["Meu", "Minha", "Meus", "Minhas"]
     },
     {
       "id": 26,
       "subject": "Yours",
-      "translation": "Teu(s)/Tua(s)/Seu(s)/Sua(s)"
+      "translations": [
+        "Teu",
+        "Tua",
+        "Seu",
+        "Sua",
+        "Teus",
+        "Tuas",
+        "Seus",
+        "Suas"
+      ]
     },
     {
       "id": 27,
       "subject": "His",
-      "translation": "Dele(s)"
+      "translations": ["Dele", "Deles"]
     },
     {
       "id": 28,
       "subject": "Hers",
-      "translation": "Dela(s)"
+      "translations": ["Dela", "Delas"]
     },
     {
       "id": 29,
       "subject": "Its",
-      "translation": "Dele(s)/Dela(s)"
+      "translations": ["Dele", "Dela", "Deles", "Delas"]
     },
     {
       "id": 30,
       "subject": "Ours",
-      "translation": "Nosso(s)/Nossa(s)"
+      "translations": ["Nosso", "Nossa", "Nossos", "Nossas"]
     },
     {
       "id": 31,
       "subject": "Yours",
-      "translation": "Vosso(s)/Vossa(s)/Seu(s)/Sua(s)/De Vocês"
+      "translations": [
+        "Vosso",
+        "Vossa",
+        "Seu",
+        "Sua",
+        "De Vocês",
+        "Vossos",
+        "Vossas",
+        "Seus",
+        "Suas"
+      ]
     },
     {
       "id": 32,
       "subject": "Theirs",
-      "translation": "Deles/Delas"
+      "translations": ["Deles", "Delas"]
     }
   ],
   "reflexivePronoun": [
     {
       "id": 33,
       "subject": "Myself",
-      "translation": "A Mim Mesmo/-me"
+      "translations": ["A Mim Mesmo", "-me"]
     },
     {
       "id": 34,
       "subject": "Yourself",
-      "translation": "A Ti/A Você Mesmo(a)/-te/-se"
+      "translations": ["A Ti", "A Você Mesmo(a)", "-te", "-se"]
     },
     {
       "id": 35,
       "subject": "Himself",
-      "translation": "A Si/A Ele Mesmo/-se"
+      "translations": ["A Si", "A Ele Mesmo", "-se"]
     },
     {
       "id": 36,
       "subject": "Herself",
-      "translation": "A Si/A Ela Mesma/-se"
+      "translations": ["A Si", "A Ela Mesma", "-se"]
     },
     {
       "id": 37,
       "subject": "Itself",
-      "translation": "A Si Mesmo(a)/-se"
+      "translations": ["A Si Mesmo(a)", "-se"]
     },
     {
       "id": 38,
       "subject": "Ourselves",
-      "translation": "A Nós Mesmo(as)/-nos"
+      "translations": ["A Nós Mesmo(as)", "-nos"]
     },
     {
       "id": 39,
       "subject": "Yourselves",
-      "translation": "A Vós, A Vocês Mesmos(as)/-vos/-se"
+      "translations": ["A Vós", "A Vocês Mesmos(as)", "-vos", "-se"]
     },
     {
       "id": 40,
       "subject": "Themselves",
-      "translation": "A Si/A Eles Mesmos/ A Elas Mesmas/-se"
+      "translations": ["A Si", "A Eles Mesmos", "A Elas Mesmas", "-se"]
     }
   ]
 }
