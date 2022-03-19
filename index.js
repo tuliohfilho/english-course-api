@@ -27,5 +27,8 @@ app.use("/present-perfect", presentPerfectRoutes);
 const onPronounciationRoutes = require("./api/routes/onPronounciationRoutes");
 app.use("/on-pronounciation", onPronounciationRoutes);
 
+const pronounRoutes = require("./api/routes/pronounRoutes");
+app.use("/pronoun", pronounRoutes);
+
 const PORT = process.env.PORT || 5050;
 app.listen(PORT, () => console.log(`Server is running in port ${PORT}`));
