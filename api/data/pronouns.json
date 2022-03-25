@@ -1,250 +1,545 @@
-{
-  "subjectPronoun": [
-    {
-      "id": 1,
-      "subject": "I",
-      "translations": ["Eu"]
-    },
-    {
-      "id": 2,
-      "subject": "You",
-      "translations": ["Você", "Tu"]
-    },
-    {
-      "id": 3,
-      "subject": "He",
-      "translations": ["Ele"]
-    },
-    {
-      "id": 4,
-      "subject": "She",
-      "translations": ["Ela"]
-    },
-    {
-      "id": 5,
-      "subject": "It",
-      "translations": ["Ela", "Ela"]
-    },
-    {
-      "id": 6,
-      "subject": "We",
-      "translations": ["Nós"]
-    },
-    {
-      "id": 7,
-      "subject": "You",
-      "translations": ["Vocês", "Vós"]
-    },
-    {
-      "id": 8,
-      "subject": "They",
-      "translations": ["Eles", "Elas"]
-    }
-  ],
-  "objectPronoun": [
-    {
-      "id": 9,
-      "subject": "Me",
-      "translations": ["Me", "Mim"]
-    },
-    {
-      "id": 10,
-      "subject": "You",
-      "translations": ["Lhe", "o", "a", "Te", "Ti", "A Você"]
-    },
-    {
-      "id": 11,
-      "subject": "Him",
-      "translations": ["Lhe", "o", "A Ele"]
-    },
-    {
-      "id": 12,
-      "subject": "Her",
-      "translations": ["Lhe", "a", "A Ela"]
-    },
-    {
-      "id": 13,
-      "subject": "It",
-      "translations": ["Lhe", "o", "a"]
-    },
-    {
-      "id": 14,
-      "subject": "Us",
-      "translations": ["Nos"]
-    },
-    {
-      "id": 15,
-      "subject": "You",
-      "translations": ["Vos", "Lhes", "A Vocês"]
-    },
-    {
-      "id": 16,
-      "subject": "Them",
-      "translations": ["Lhes", "Os", "As"]
-    }
-  ],
-  "possessiveAdjective": [
-    {
-      "id": 17,
-      "subject": "My",
-      "translations": ["Meu", "Minha", "Meus", "Minhas"]
-    },
-    {
-      "id": 18,
-      "subject": "Your",
-      "translations": [
-        "Teu",
-        "Tua",
-        "Seu",
-        "Sua",
-        "Teus",
-        "Tuas",
-        "Seus",
-        "Suas"
-      ]
-    },
-    {
-      "id": 19,
-      "subject": "His",
-      "translations": ["Dele", "Deles"]
-    },
-    {
-      "id": 20,
-      "subject": "Her",
-      "translations": ["Dela", "Delas"]
-    },
-    {
-      "id": 21,
-      "subject": "Its",
-      "translations": ["Dele", "Dela", "Deles", "Delas"]
-    },
-    {
-      "id": 22,
-      "subject": "Our",
-      "translations": ["Nosso", "Nossa", "Nossos", "Nossas"]
-    },
-    {
-      "id": 23,
-      "subject": "Your",
-      "translations": [
-        "Vosso",
-        "Vossa",
-        "Seu",
-        "Sua",
-        "Vossos",
-        "Vossas",
-        "Seus",
-        "Suas",
-        "De Vocês"
-      ]
-    },
-    {
-      "id": 24,
-      "subject": "Their",
-      "translations": ["Deles", "Delas"]
-    }
-  ],
-  "possessivePronoun": [
-    {
-      "id": 25,
-      "subject": "Mine",
-      "translations": ["Meu", "Minha", "Meus", "Minhas"]
-    },
-    {
-      "id": 26,
-      "subject": "Yours",
-      "translations": [
-        "Teu",
-        "Tua",
-        "Seu",
-        "Sua",
-        "Teus",
-        "Tuas",
-        "Seus",
-        "Suas"
-      ]
-    },
-    {
-      "id": 27,
-      "subject": "His",
-      "translations": ["Dele", "Deles"]
-    },
-    {
-      "id": 28,
-      "subject": "Hers",
-      "translations": ["Dela", "Delas"]
-    },
-    {
-      "id": 29,
-      "subject": "Its",
-      "translations": ["Dele", "Dela", "Deles", "Delas"]
-    },
-    {
-      "id": 30,
-      "subject": "Ours",
-      "translations": ["Nosso", "Nossa", "Nossos", "Nossas"]
-    },
-    {
-      "id": 31,
-      "subject": "Yours",
-      "translations": [
-        "Vosso",
-        "Vossa",
-        "Seu",
-        "Sua",
-        "De Vocês",
-        "Vossos",
-        "Vossas",
-        "Seus",
-        "Suas"
-      ]
-    },
-    {
-      "id": 32,
-      "subject": "Theirs",
-      "translations": ["Deles", "Delas"]
-    }
-  ],
-  "reflexivePronoun": [
-    {
-      "id": 33,
-      "subject": "Myself",
-      "translations": ["A Mim Mesmo", "-me"]
-    },
-    {
-      "id": 34,
-      "subject": "Yourself",
-      "translations": ["A Ti", "A Você Mesmo(a)", "-te", "-se"]
-    },
-    {
-      "id": 35,
-      "subject": "Himself",
-      "translations": ["A Si", "A Ele Mesmo", "-se"]
-    },
-    {
-      "id": 36,
-      "subject": "Herself",
-      "translations": ["A Si", "A Ela Mesma", "-se"]
-    },
-    {
-      "id": 37,
-      "subject": "Itself",
-      "translations": ["A Si Mesmo(a)", "-se"]
-    },
-    {
-      "id": 38,
-      "subject": "Ourselves",
-      "translations": ["A Nós Mesmo(as)", "-nos"]
-    },
-    {
-      "id": 39,
-      "subject": "Yourselves",
-      "translations": ["A Vós", "A Vocês Mesmos(as)", "-vos", "-se"]
-    },
-    {
-      "id": 40,
-      "subject": "Themselves",
-      "translations": ["A Si", "A Eles Mesmos", "A Elas Mesmas", "-se"]
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "typeId": 1,
+    "subject": "I",
+    "translations": ["Eu"]
+  },
+  {
+    "id": 2,
+    "typeId": 1,
+    "subject": "You",
+    "translations": ["Você", "Tu"]
+  },
+  {
+    "id": 3,
+    "typeId": 1,
+    "subject": "He",
+    "translations": ["Ele"]
+  },
+  {
+    "id": 4,
+    "typeId": 1,
+    "subject": "She",
+    "translations": ["Ela"]
+  },
+  {
+    "id": 5,
+    "typeId": 1,
+    "subject": "It",
+    "translations": ["Ela", "Ela"]
+  },
+  {
+    "id": 6,
+    "typeId": 1,
+    "subject": "We",
+    "translations": ["Nós"]
+  },
+  {
+    "id": 7,
+    "typeId": 1,
+    "subject": "You",
+    "translations": ["Vocês", "Vós"]
+  },
+  {
+    "id": 8,
+    "typeId": 1,
+    "subject": "They",
+    "translations": ["Eles", "Elas"]
+  },
+  {
+    "id": 9,
+    "typeId": 2,
+    "subject": "Me",
+    "translations": ["Me", "Mim"]
+  },
+  {
+    "id": 10,
+    "typeId": 2,
+    "subject": "You",
+    "translations": ["Lhe", "o", "a", "Te", "Ti", "A Você"]
+  },
+  {
+    "id": 11,
+    "typeId": 2,
+    "subject": "Him",
+    "translations": ["Lhe", "o", "A Ele"]
+  },
+  {
+    "id": 12,
+    "typeId": 2,
+    "subject": "Her",
+    "translations": ["Lhe", "a", "A Ela"]
+  },
+  {
+    "id": 13,
+    "typeId": 2,
+    "subject": "It",
+    "translations": ["Lhe", "o", "a"]
+  },
+  {
+    "id": 14,
+    "typeId": 2,
+    "subject": "Us",
+    "translations": ["Nos"]
+  },
+  {
+    "id": 15,
+    "typeId": 2,
+    "subject": "You",
+    "translations": ["Vos", "Lhes", "A Vocês"]
+  },
+  {
+    "id": 16,
+    "typeId": 2,
+    "subject": "Them",
+    "translations": ["Lhes", "Os", "As"]
+  },
+  {
+    "id": 17,
+    "typeId": 3,
+    "subject": "My",
+    "translations": ["Meu", "Minha", "Meus", "Minhas"]
+  },
+  {
+    "id": 18,
+    "typeId": 3,
+    "subject": "Your",
+    "translations": ["Teu", "Tua", "Seu", "Sua", "Teus", "Tuas", "Seus", "Suas"]
+  },
+  {
+    "id": 19,
+    "typeId": 3,
+    "subject": "His",
+    "translations": ["Dele", "Deles"]
+  },
+  {
+    "id": 20,
+    "typeId": 3,
+    "subject": "Her",
+    "translations": ["Dela", "Delas"]
+  },
+  {
+    "id": 21,
+    "typeId": 3,
+    "subject": "Its",
+    "translations": ["Dele", "Dela", "Deles", "Delas"]
+  },
+  {
+    "id": 22,
+    "typeId": 3,
+    "subject": "Our",
+    "translations": ["Nosso", "Nossa", "Nossos", "Nossas"]
+  },
+  {
+    "id": 23,
+    "typeId": 3,
+    "subject": "Your",
+    "translations": [
+      "Vosso",
+      "Vossa",
+      "Seu",
+      "Sua",
+      "Vossos",
+      "Vossas",
+      "Seus",
+      "Suas",
+      "De Vocês"
+    ]
+  },
+  {
+    "id": 24,
+    "typeId": 3,
+    "subject": "Their",
+    "translations": ["Deles", "Delas"]
+  },
+  {
+    "id": 25,
+    "typeId": 4,
+    "subject": "Mine",
+    "translations": ["Meu", "Minha", "Meus", "Minhas"]
+  },
+  {
+    "id": 26,
+    "subject": "Yours",
+    "translations": ["Teu", "Tua", "Seu", "Sua", "Teus", "Tuas", "Seus", "Suas"]
+  },
+  {
+    "id": 27,
+    "typeId": 4,
+    "subject": "His",
+    "translations": ["Dele", "Deles"]
+  },
+  {
+    "id": 28,
+    "typeId": 4,
+    "subject": "Hers",
+    "translations": ["Dela", "Delas"]
+  },
+  {
+    "id": 29,
+    "typeId": 4,
+    "subject": "Its",
+    "translations": ["Dele", "Dela", "Deles", "Delas"]
+  },
+  {
+    "id": 30,
+    "typeId": 4,
+    "subject": "Ours",
+    "translations": ["Nosso", "Nossa", "Nossos", "Nossas"]
+  },
+  {
+    "id": 31,
+    "typeId": 4,
+    "subject": "Yours",
+    "translations": [
+      "Vosso",
+      "Vossa",
+      "Seu",
+      "Sua",
+      "De Vocês",
+      "Vossos",
+      "Vossas",
+      "Seus",
+      "Suas"
+    ]
+  },
+  {
+    "id": 32,
+    "typeId": 4,
+    "subject": "Theirs",
+    "translations": ["Deles", "Delas"]
+  },
+  {
+    "id": 33,
+    "typeId": 5,
+    "subject": "Myself",
+    "translations": ["A Mim Mesmo", "-me"]
+  },
+  {
+    "id": 34,
+    "typeId": 5,
+    "subject": "Yourself",
+    "translations": ["A Ti", "A Você Mesmo(a)", "-te", "-se"]
+  },
+  {
+    "id": 35,
+    "typeId": 5,
+    "subject": "Himself",
+    "translations": ["A Si", "A Ele Mesmo", "-se"]
+  },
+  {
+    "id": 36,
+    "typeId": 5,
+    "subject": "Herself",
+    "translations": ["A Si", "A Ela Mesma", "-se"]
+  },
+  {
+    "id": 37,
+    "typeId": 5,
+    "subject": "Itself",
+    "translations": ["A Si Mesmo(a)", "-se"]
+  },
+  {
+    "id": 38,
+    "typeId": 5,
+    "subject": "Ourselves",
+    "translations": ["A Nós Mesmo(as)", "-nos"]
+  },
+  {
+    "id": 39,
+    "typeId": 5,
+    "subject": "Yourselves",
+    "translations": ["A Vós", "A Vocês Mesmos(as)", "-vos", "-se"]
+  },
+  {
+    "id": 40,
+    "typeId": 5,
+    "subject": "Themselves",
+    "translations": ["A Si", "A Eles Mesmos", "A Elas Mesmas", "-se"]
+  },
+  {
+    "id": 41,
+    "typeId": 6,
+    "subject": "This",
+    "translations": ["Este", "Esta", "Isto"]
+  },
+  {
+    "id": 42,
+    "typeId": 6,
+    "subject": "These",
+    "translations": ["Estes", "Estas"]
+  },
+  {
+    "id": 43,
+    "typeId": 6,
+    "subject": "That",
+    "translations": ["Esse", "Essa", "Isso", "Aquele", "Aquela", "Aquilo"]
+  },
+  {
+    "id": 44,
+    "typeId": 6,
+    "subject": "Those",
+    "translations": ["Esses", "Essas", "Aqueles", "Aquelas"]
+  },
+  {
+    "id": 46,
+    "typeId": 7,
+    "subject": "Any",
+    "translations": [
+      "Qualquer",
+      "Quaisquer",
+      "Algum",
+      "Alguns",
+      "Alguma(s)",
+      "Nenhum"
+    ]
+  },
+  {
+    "id": 47,
+    "typeId": 7,
+    "subject": "Anybody, Anyone",
+    "translations": ["Alguém", "Ninguém", "Qualquer um"]
+  },
+  {
+    "id": 48,
+    "typeId": 7,
+    "subject": "Anything",
+    "translations": ["Qualquer Coisa", "Alguma coisa", "Nada"]
+  },
+  {
+    "id": 49,
+    "typeId": 7,
+    "subject": "Anywhere",
+    "translations": ["Nenhum lugar", "Qualquer Lugar"]
+  },
+  {
+    "id": 50,
+    "typeId": 7,
+    "subject": "Some",
+    "translations": ["Algum", "Alguns", "Alguma(s)"]
+  },
+  {
+    "id": 51,
+    "typeId": 7,
+    "subject": "Somebody, Someone",
+    "translations": ["Alguém"]
+  },
+  {
+    "id": 52,
+    "typeId": 7,
+    "subject": "Something",
+    "translations": ["Alguma Coisa"]
+  },
+  {
+    "id": 53,
+    "typeId": 7,
+    "subject": "No (pronome adjetivo), none (pronome substantivo)",
+    "translations": ["Nenhum", "Nenhuma"]
+  },
+  {
+    "id": 54,
+    "typeId": 7,
+    "subject": "Nobody, No One",
+    "translations": ["Ninguém"]
+  },
+  {
+    "id": 55,
+    "typeId": 7,
+    "subject": "Nowhere",
+    "translations": ["Nenhum Lugar"]
+  },
+  {
+    "id": 56,
+    "typeId": 7,
+    "subject": "Nothing",
+    "translations": ["Nada"]
+  },
+  {
+    "id": 57,
+    "typeId": 7,
+    "subject": "Much",
+    "translations": ["Muito", "Muita"]
+  },
+  {
+    "id": 58,
+    "typeId": 7,
+    "subject": "Many",
+    "translations": ["Muitos, Muitas"]
+  },
+  {
+    "id": 59,
+    "typeId": 7,
+    "subject": "Little",
+    "translations": ["Pouco", "Pouca"]
+  },
+  {
+    "id": 60,
+    "typeId": 7,
+    "subject": "Few",
+    "translations": ["Poucos", "Poucas"]
+  },
+  {
+    "id": 61,
+    "typeId": 7,
+    "subject": "All",
+    "translations": ["Todo(s)", "Toda(s)", "Tudo"]
+  },
+  {
+    "id": 62,
+    "typeId": 7,
+    "subject": "One",
+    "translations": [
+      "Usado para fazer referência a pessoas em geral",
+      "A uma pessoa ou coisa mencionada anteriormente",
+      "A uma pessoa de um tipo específico"
+    ]
+  },
+  {
+    "id": 63,
+    "typeId": 7,
+    "subject": "Each",
+    "translations": ["Cada"]
+  },
+  {
+    "id": 64,
+    "typeId": 7,
+    "subject": "Other",
+    "translations": ["Outro(s)", "Outra(s)"]
+  },
+  {
+    "id": 65,
+    "typeId": 7,
+    "subject": "Another",
+    "translations": ["Outro", "Outra"]
+  },
+  {
+    "id": 66,
+    "typeId": 7,
+    "subject": "Either",
+    "translations": ["Ambos", "Um ou outro"]
+  },
+  {
+    "id": 67,
+    "typeId": 7,
+    "subject": "Neither",
+    "translations": ["Nenhum (nem um nem o outro de duas pessoas ou coisas)"]
+  },
+  {
+    "id": 68,
+    "typeId": 7,
+    "subject": "Both",
+    "translations": ["Ambos", "Ambas"]
+  },
+  {
+    "id": 69,
+    "typeId": 7,
+    "subject": "Enough",
+    "translations": ["Bastante"]
+  },
+  {
+    "id": 70,
+    "typeId": 7,
+    "subject": "Several",
+    "translations": ["Vários", "Várias"]
+  },
+  {
+    "id": 71,
+    "typeId": 7,
+    "subject": "Everyone",
+    "translations": ["Todos, todo mundo"]
+  },
+  {
+    "id": 72,
+    "typeId": 7,
+    "subject": "Everything",
+    "translations": ["Tudo"]
+  },
+  {
+    "id": 73,
+    "typeId": 8,
+    "subject": "Who",
+    "translations": ["Quem", "O Qual", "Que"]
+  },
+  {
+    "id": 74,
+    "typeId": 8,
+    "subject": "Whose",
+    "translations": ["Cujo", "Cuja", "Cujos", "Cujas"]
+  },
+  {
+    "id": 75,
+    "typeId": 8,
+    "subject": "Which",
+    "translations": ["Que", "O Qual", "O Que"]
+  },
+  {
+    "id": 76,
+    "typeId": 8,
+    "subject": "Where",
+    "translations": [
+      "Onde",
+      "Em Que",
+      "No Que",
+      "No Qual",
+      "Na Qual",
+      "Nos Quais",
+      "Nas Quais"
+    ]
+  },
+  {
+    "id": 77,
+    "typeId": 8,
+    "subject": "When",
+    "translations": [
+      "Quando",
+      "Em Que",
+      "No Qual",
+      "Na Qual",
+      "Nos Quais",
+      "Nas Quais"
+    ]
+  },
+  {
+    "id": 78,
+    "typeId": 8,
+    "subject": "Taht",
+    "translations": ["Que"]
+  },
+  {
+    "id": 79,
+    "typeId": 8,
+    "subject": "What",
+    "translations": ["O Que"]
+  },
+  {
+    "id": 80,
+    "typeId": 9,
+    "subject": "Who",
+    "translations": ["Quem (Função de Sujeito)"]
+  },
+  {
+    "id": 81,
+    "typeId": 9,
+    "subject": "Whom",
+    "translations": ["Quem (Função de Objeto)"]
+  },
+  {
+    "id": 82,
+    "typeId": 9,
+    "subject": "Whose",
+    "translations": ["De Quem"]
+  },
+  {
+    "id": 83,
+    "typeId": 9,
+    "subject": "Which",
+    "translations": ["Qual", "Quais"]
+  },
+  {
+    "id": 84,
+    "typeId": 9,
+    "subject": "What",
+    "translations": ["O Que", "Que"]
+  }
+]

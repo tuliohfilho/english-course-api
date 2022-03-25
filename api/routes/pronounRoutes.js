@@ -1,7 +1,11 @@
 const router = require("express").Router();
 
-const { getAll } = require("../controllers/pronounController");
+const {
+  getAllPronounsCategories,
+  getPronounsTypesByCategoryId,
+} = require("../controllers/pronounController");
 
-router.get("/", getAll);
+router.get("/categories", getAllPronounsCategories);
+router.get("/category/:id/types", getPronounsTypesByCategoryId);
 
 module.exports = router;
