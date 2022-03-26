@@ -5,7 +5,7 @@
   "repository": "https://github.com/tuliohfilho/english-course-api.git",
   "author": "Tulio Filho <tuliofilho@outlook.com>",
   "license": "MIT",
-  "main": "src/server.ts",
+  "main": "server.js",
   "engines": {
     "node": "14.x"
   },
