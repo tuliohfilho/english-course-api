@@ -1,13 +1,10 @@
-import { VercelRequest, VercelResponse } from "@vercel/node";
+import { Response, Request } from "express";
 import { container } from "tsyringe";
 
 import { GetAllIrregularVerbsUseCase } from "./UserCase";
 
 class GetAllIrregularVerbsController {
-  async handle(
-    Request: VercelRequest,
-    response: VercelResponse
-  ): Promise<VercelResponse> {
+  async handle(Request: Request, response: Response): Promise<Response> {
     const service = container.resolve(GetAllIrregularVerbsUseCase);
 
     const irregularVerbs = await service.execute();
