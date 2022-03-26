@@ -4,9 +4,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 require("reflect-metadata");
-require("./src/shared/container");
+require("./shared/container");
 const express_1 = __importDefault(require("express"));
-const routes_1 = require("./src/routes");
+const routes_1 = require("./routes");
 const app = (0, express_1.default)();
 app.use((req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*");
