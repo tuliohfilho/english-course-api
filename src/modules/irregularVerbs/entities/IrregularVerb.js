@@ -12,4 +12,3 @@ class IrregularVerb {
     }
 }
 exports.IrregularVerb = IrregularVerb;
-//# sourceMappingURL=IrregularVerb.js.map

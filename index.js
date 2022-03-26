@@ -4,9 +4,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 require("reflect-metadata");
-require("./api/shared/container");
+require("./src/shared/container");
 const express_1 = __importDefault(require("express"));
-const routes_1 = require("./api/routes");
+const routes_1 = require("./src/routes");
 const app = (0, express_1.default)();
 app.use((req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*");
@@ -20,4 +20,3 @@ app.use(express_1.default.json());
 app.use(routes_1.router);
 const PORT = process.env.PORT || 5050;
 app.listen(PORT, () => console.log(`Server is running in port ${PORT}`));
-//# sourceMappingURL=index.js.map

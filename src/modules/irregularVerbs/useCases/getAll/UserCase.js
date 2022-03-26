@@ -40,4 +40,3 @@ GetAllIrregularVerbsUseCase = __decorate([
     __metadata("design:paramtypes", [Object])
 ], GetAllIrregularVerbsUseCase);
 exports.GetAllIrregularVerbsUseCase = GetAllIrregularVerbsUseCase;
-//# sourceMappingURL=UserCase.js.map

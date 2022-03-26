@@ -22,4 +22,3 @@ class GetAllIrregularVerbsController {
     }
 }
 exports.GetAllIrregularVerbsController = GetAllIrregularVerbsController;
-//# sourceMappingURL=index.js.map

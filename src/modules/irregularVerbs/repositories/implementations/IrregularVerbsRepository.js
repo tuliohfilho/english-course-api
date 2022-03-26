@@ -22,4 +22,3 @@ class IrregularVerbsRepository {
     }
 }
 exports.IrregularVerbsRepository = IrregularVerbsRepository;
-//# sourceMappingURL=IrregularVerbsRepository.js.map

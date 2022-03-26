@@ -645,4 +645,3 @@ const irregularVerbDatabase = [
     }),
 ];
 exports.irregularVerbDatabase = irregularVerbDatabase;
-//# sourceMappingURL=irregular-verbs.js.map
