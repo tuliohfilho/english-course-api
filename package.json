@@ -5,9 +5,13 @@
   "repository": "https://github.com/tuliohfilho/english-course-api.git",
   "author": "Tulio Filho <tuliofilho@outlook.com>",
   "license": "MIT",
-  "private": false,
+  "main": "src/server.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
-    "start": "npx tsc",
+    "start": "node src/index.js",
+    "build": "npx tsc",
     "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts"
   },
   "dependencies": {
@@ -19,6 +23,7 @@
     "@types/express": "^4.17.13",
     "@typescript-eslint/eslint-plugin": "^5.16.0",
     "@typescript-eslint/parser": "^5.16.0",
+    "@vercel/node": "^1.14.0",
     "eslint": "^8.11.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",
