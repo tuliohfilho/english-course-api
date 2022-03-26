@@ -2,14 +2,10 @@
   "name": "english-course-api",
   "version": "1.0.0",
   "description": "Backend to English course frontend",
-  "main": "src/index.ts",
   "repository": "https://github.com/tuliohfilho/english-course-api.git",
   "author": "Tulio Filho <tuliofilho@outlook.com>",
   "license": "MIT",
   "private": false,
-  "engines": {
-    "node": "14.x"
-  },
   "scripts": {
     "start": "npx tsc",
     "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts"
