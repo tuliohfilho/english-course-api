@@ -7,6 +7,9 @@
   "author": "Tulio Filho <tuliofilho@outlook.com>",
   "license": "MIT",
   "private": false,
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts"
   },
