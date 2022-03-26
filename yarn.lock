@@ -221,7 +221,7 @@
 
 "@vercel/node@^1.14.0":
   version "1.14.0"
-  resolved "https://registry.npmjs.org/@vercel/node/-/node-1.14.0.tgz"
+  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-1.14.0.tgz#93307fbb99950a3a1caf1183b815c50ee64e6e1a"
   integrity sha512-UAb1qQMeTkSXz95yljJpz0MyTzcj++B/1XR0vKFZOs2CEfSkBO1DjzX6BkaKriaihBdbGM/X9UoMJfWfUBBn8Q==
   dependencies:
     "@types/node" "*"
