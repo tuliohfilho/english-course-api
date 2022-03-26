@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 require("reflect-metadata");
 require("./src/shared/container");
-const src_1 = require("./src");
+const _1 = require(".");
 const PORT = process.env.PORT || 5050;
-src_1.app.listen(PORT, () => console.log(`Server is running in port ${PORT}`));
+_1.app.listen(PORT, () => console.log(`Server is running in port ${PORT}`));
 //# sourceMappingURL=server.js.map
