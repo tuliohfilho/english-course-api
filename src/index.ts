@@ -1,6 +1,3 @@
-import "reflect-metadata";
-import "./shared/container";
-
 import express from "express";
 
 import { router } from "./routes";
@@ -26,5 +23,4 @@ app.use(express.json());
 
 app.use(router);
 
-const PORT = process.env.PORT || 5050;
-app.listen(PORT, () => console.log(`Server is running in port ${PORT}`));
+export { app };
