@@ -24,6 +24,6 @@ app.use(
 app.use(express.json());
 
 app.use(router);
-app.use("/swagger", swagger.serve, swagger.setup(swaggerFile));
+app.use("/", swagger.serve, swagger.setup(swaggerFile));
 
 export { app };
