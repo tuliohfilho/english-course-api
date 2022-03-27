@@ -1,0 +1,66 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "English Course",
+    "description": "This is an API Rest",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/irregular-verbs": {
+      "get": {
+        "tags": ["Irregular Verbs"],
+        "summary": "List most popular irregular verbs",
+        "description": "List most popular irregular verbs",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/IrregularVerb"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "IrregularVerb": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "number",
+            "required": "true"
+          },
+          "translation": {
+            "type": "string",
+            "required": "true"
+          },
+          "infinitve": {
+            "type": "string",
+            "required": "true"
+          },
+          "past": {
+            "type": "string",
+            "required": "true"
+          },
+          "pastParticiple": {
+            "type": "string",
+            "required": "true"
+          },
+          "audioName": {
+            "type": "string",
+            "required": "true"
+          }
+        }
+      }
+    }
+  }
+}
