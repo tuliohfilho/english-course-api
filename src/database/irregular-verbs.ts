@@ -1,6 +1,6 @@
 import { IrregularVerb } from "../modules/irregularVerbs/entities/IrregularVerb";
 
-const irregularVerbDatabase: Array<IrregularVerb> = [
+const IrregularVerbDatabase: Array<IrregularVerb> = [
   new IrregularVerb({
     id: 1,
     translation: "S'er/Estar",
@@ -643,4 +643,4 @@ const irregularVerbDatabase: Array<IrregularVerb> = [
   }),
 ];
 
-export { irregularVerbDatabase };
+export { IrregularVerbDatabase };
