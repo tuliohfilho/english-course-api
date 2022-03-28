@@ -6,7 +6,7 @@
     "version": "1.0.0"
   },
   "paths": {
-    "/irregular-verbs": {
+    "/irregular-verb": {
       "get": {
         "tags": ["Irregular Verbs"],
         "summary": "List most popular irregular verbs",
@@ -20,6 +20,28 @@
                   "type": "array",
                   "items": {
                     "$ref": "#/components/schemas/IrregularVerb"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/on-pronounciation": {
+      "get": {
+        "tags": ["On Pronounciation"],
+        "summary": "List on pronounctiaton ",
+        "description": "List on pronounciation to simples present and simple past tense",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OnPronounciation"
                   }
                 }
               }
@@ -56,6 +78,37 @@
             "required": "true"
           },
           "audioName": {
+            "type": "string",
+            "required": "true"
+          }
+        }
+      },
+      "OnPronounciation": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "number",
+            "required": "true"
+          },
+          "typeId": {
+            "type": "string",
+            "format": "number",
+            "required": "true"
+          },
+          "subject": {
+            "type": "string",
+            "required": "true"
+          },
+          "audioName": {
+            "type": "string",
+            "required": "true"
+          },
+          "auxiliaryVerb": {
+            "type": "string",
+            "required": "true"
+          },
+          "pronounciation": {
             "type": "string",
             "required": "true"
           }
