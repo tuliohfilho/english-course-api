@@ -1,118 +1,134 @@
 import { OnPronounciation } from "../modules/onPronounciations/entities/OnPronounciation";
 
 const OnPronounciationsDatabase: Array<OnPronounciation> = [
-  {
+  new OnPronounciation({
     id: 1,
+    typeId: 1,
     subject: "I",
     auxiliaryVerb: "do",
     pronounciation: "Duái",
     audioName: "do_i.mp3",
-  },
-  {
+  }),
+  new OnPronounciation({
     id: 2,
+    typeId: 1,
     subject: "You",
     auxiliaryVerb: "do",
     pronounciation: "Diu",
     audioName: "do_you.mp3",
-  },
-  {
+  }),
+  new OnPronounciation({
     id: 3,
+    typeId: 1,
     subject: "He",
     auxiliaryVerb: "does",
     pronounciation: "Dázi",
     audioName: "does_he.mp3",
-  },
-  {
+  }),
+  new OnPronounciation({
     id: 4,
+    typeId: 1,
     subject: "She",
     auxiliaryVerb: "does",
     pronounciation: "Dáshi",
     audioName: "does_she.mp3",
-  },
-  {
+  }),
+  new OnPronounciation({
     id: 5,
+    typeId: 1,
     subject: "It",
     auxiliaryVerb: "does",
     pronounciation: "Dázêt",
     audioName: "does_it.mp3",
-  },
-  {
+  }),
+  new OnPronounciation({
     id: 6,
+    typeId: 1,
     subject: "We",
     auxiliaryVerb: "do",
     pronounciation: "Duí",
     audioName: "do_we.mp3",
-  },
-  {
+  }),
+  new OnPronounciation({
     id: 7,
+    typeId: 1,
     subject: "You",
     auxiliaryVerb: "do",
     pronounciation: "Diu",
     audioName: "do_you.mp3",
-  },
-  {
+  }),
+  new OnPronounciation({
     id: 8,
+    typeId: 1,
     subject: "They",
     auxiliaryVerb: "do",
     pronounciation: "Dúdei / Dúrei",
     audioName: "do_they.mp3",
-  },
-  {
-    id: 8,
+  }),
+  new OnPronounciation({
+    id: 9,
+    typeId: 2,
     subject: "I",
     auxiliaryVerb: "did",
     pronounciation: "Dêdai / Dêrai",
     audioName: "did_i.mp3",
-  },
-  {
-    id: 9,
+  }),
+  new OnPronounciation({
+    id: 10,
+    typeId: 2,
     subject: "You",
     auxiliaryVerb: "did",
     pronounciation: "Dêdju",
     audioName: "did_you.mp3",
-  },
-  {
-    id: 10,
+  }),
+  new OnPronounciation({
+    id: 11,
+    typeId: 2,
     subject: "He",
     auxiliaryVerb: "did",
     pronounciation: "Dêri",
     audioName: "did_he.mp3",
-  },
-  {
-    id: 11,
+  }),
+  new OnPronounciation({
+    id: 12,
+    typeId: 2,
     subject: "She",
     auxiliaryVerb: "did",
     pronounciation: "Dêdshi",
     audioName: "did_she.mp3",
-  },
-  {
-    id: 12,
+  }),
+  new OnPronounciation({
+    id: 13,
+    typeId: 2,
     subject: "It",
     auxiliaryVerb: "did",
     pronounciation: "Dêrêt",
     audioName: "did_it.mp3",
-  },
-  {
-    id: 13,
+  }),
+  new OnPronounciation({
+    id: 14,
+    typeId: 2,
     subject: "We",
     auxiliaryVerb: "did",
     pronounciation: "Dêdui",
     audioName: "did_we.mp3",
-  },
-  {
-    id: 14,
+  }),
+  new OnPronounciation({
+    id: 15,
+    typeId: 2,
     subject: "You",
     auxiliaryVerb: "did",
     pronounciation: "Dêdju",
     audioName: "did_you.mp3",
-  },
-  {
-    id: 15,
+  }),
+  new OnPronounciation({
+    id: 16,
+    typeId: 2,
     subject: "They",
     auxiliaryVerb: "did",
     pronounciation: "DêDei / Dêrei",
     audioName: "did_they.mp3",
-  },
+  }),
 ];
 
 export { OnPronounciationsDatabase };
