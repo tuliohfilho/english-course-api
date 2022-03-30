@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.router = void 0;
+const express_1 = require("express");
+const irregular_verbs_routes_1 = require("./irregular-verbs.routes");
+const on_pronounciations_routes_1 = require("./on-pronounciations.routes");
+const router = (0, express_1.Router)();
+exports.router = router;
+router.use("/irregular-verb", irregular_verbs_routes_1.irregularVerbRoutes);
+router.use("/on-pronounciation", on_pronounciations_routes_1.onPronounciationRoutes);
