@@ -1,4 +1,4 @@
-import { PresentPerfect } from "../modules/presentPerfect/entities/PresentPerfect";
+import { PresentPerfect } from "../modules/presentPerfects/entities/PresentPerfect";
 
 const PresentPerfectsDatabase: Array<PresentPerfect> = [
   new PresentPerfect({
