@@ -1,6 +1,6 @@
 import { PresentPerfect } from "../modules/presentPerfect/entities/PresentPerfect";
 
-const PresentPerfectDatabase: Array<PresentPerfect> = [
+const PresentPerfectsDatabase: Array<PresentPerfect> = [
   new PresentPerfect({
     id: 1,
     typeId: 1,
@@ -115,4 +115,4 @@ const PresentPerfectDatabase: Array<PresentPerfect> = [
   }),
 ];
 
-export { PresentPerfectDatabase };
+export { PresentPerfectsDatabase };
