@@ -1,10 +1,21 @@
 import { Router } from "express";
 
-import { GetAllPronounsController } from "../modules/pronouns/useCases/getAll";
+import {
+  GetAllPronounCategoriesController,
+  GetPronounTypesByCategoryIdController,
+} from "../modules/pronouns";
 
 const pronounRoutes = Router();
 
-const getAllPronounsController = new GetAllPronounsController();
-pronounRoutes.get("/", getAllPronounsController.handle);
+const getAllPronounCategoriesController =
+  new GetAllPronounCategoriesController();
+const getPronounTypesByCategoryIdController =
+  new GetPronounTypesByCategoryIdController();
+
+pronounRoutes.get("/categories", getAllPronounCategoriesController.handle);
+pronounRoutes.get(
+  "/category/:categoryId/types",
+  getPronounTypesByCategoryIdController.handle
+);
 
 export { pronounRoutes };

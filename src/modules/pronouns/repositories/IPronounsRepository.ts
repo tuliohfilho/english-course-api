@@ -1,7 +1,7 @@
 import { Pronoun } from "../entities/Pronoun";
 
 interface IPronounsRepository {
-  getAll(): Promise<Array<Pronoun>>;
+  getByTypeId(typeId: number): Promise<Array<Pronoun>>;
 }
 
 export { IPronounsRepository };

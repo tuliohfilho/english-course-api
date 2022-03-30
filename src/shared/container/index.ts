@@ -6,8 +6,12 @@ import { OnPronounciationsRepository } from "../../modules/onPronounciations/rep
 import { IOnPronounciationsRepository } from "../../modules/onPronounciations/repositories/IOnPronounciationsRepository";
 import { PresentPerfectsRepository } from "../../modules/presentPerfects/repositories/implementations/PresentPerfectsRepository";
 import { IPresentPerfectsRepository } from "../../modules/presentPerfects/repositories/IPresentPerfectsRepository";
+import { PronounCategoriesRepository } from "../../modules/pronouns/repositories/implementations/PronounCategoriesRepository";
 import { PronounsRepository } from "../../modules/pronouns/repositories/implementations/PronounsRepository";
+import { PronounTypesRepository } from "../../modules/pronouns/repositories/implementations/PronounTypesRepository";
+import { IPronounCategoriesRepository } from "../../modules/pronouns/repositories/IPronounCategoriesRepository";
 import { IPronounsRepository } from "../../modules/pronouns/repositories/IPronounsRepository";
+import { IPronounTypesRepository } from "../../modules/pronouns/repositories/IPronounTypesRepository";
 
 container.registerSingleton<IIrregularVerbsRepository>(
   "IrregularVerbsRepository",
@@ -27,4 +31,14 @@ container.registerSingleton<IPresentPerfectsRepository>(
 container.registerSingleton<IPronounsRepository>(
   "PronounsRepository",
   PronounsRepository
+);
+
+container.registerSingleton<IPronounTypesRepository>(
+  "PronounTypesRepository",
+  PronounTypesRepository
+);
+
+container.registerSingleton<IPronounCategoriesRepository>(
+  "PronounCategoriesRepository",
+  PronounCategoriesRepository
 );

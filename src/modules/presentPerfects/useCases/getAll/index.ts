@@ -4,7 +4,7 @@ import { container } from "tsyringe";
 import { GetAllPresentPerfectsUseCase } from "./UserCase";
 
 class GetAllPresentPerfectsController {
-  async handle(Request: Request, response: Response): Promise<Response> {
+  async handle(request: Request, response: Response): Promise<Response> {
     const service = container.resolve(GetAllPresentPerfectsUseCase);
 
     const PresentPerfect = await service.execute();

@@ -3,9 +3,11 @@ import { Pronoun } from "../../entities/Pronoun";
 import { IPronounsRepository } from "../IPronounsRepository";
 
 class PronounsRepository implements IPronounsRepository {
-  async getAll(): Promise<Array<Pronoun>> {
+  async getByTypeId(typeId: number): Promise<Array<Pronoun>> {
     const promise = await new Promise<Array<Pronoun>>((resolve) => {
-      resolve(PronounsDatabase);
+      const arr = PronounsDatabase.filter((p) => p.typeId === typeId);
+
+      resolve(arr);
     });
 
     return promise;
