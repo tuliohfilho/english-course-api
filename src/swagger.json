@@ -31,7 +31,7 @@
     "/on-pronounciation": {
       "get": {
         "tags": ["On Pronounciation"],
-        "summary": "List on pronounctiaton ",
+        "summary": "List on pronounctiatons",
         "description": "List on pronounciation to simples present and simple past tense",
         "responses": {
           "200": {
