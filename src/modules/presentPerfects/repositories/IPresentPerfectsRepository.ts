@@ -1,7 +1,7 @@
 import { PresentPerfect } from "../entities/PresentPerfect";
 
 interface IPresentPerfectsRepository {
-  getAll(): Promise<Array<PresentPerfect>>;
+  getByTypeId(typeId: number): Promise<Array<PresentPerfect>>;
 }
 
 export { IPresentPerfectsRepository };

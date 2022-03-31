@@ -1,11 +1,11 @@
 import { Response, Request } from "express";
 import { container } from "tsyringe";
 
-import { GetAllPresentPerfectsUseCase } from "./UserCase";
+import { GetAllPresentPerfectTypesUseCase } from "./UserCase";
 
-class GetAllPresentPerfectsController {
+class GetAllPresentPerfectTypesController {
   async handle(request: Request, response: Response): Promise<Response> {
-    const service = container.resolve(GetAllPresentPerfectsUseCase);
+    const service = container.resolve(GetAllPresentPerfectTypesUseCase);
 
     const PresentPerfect = await service.execute();
 
@@ -13,4 +13,4 @@ class GetAllPresentPerfectsController {
   }
 }
 
-export { GetAllPresentPerfectsController };
+export { GetAllPresentPerfectTypesController };

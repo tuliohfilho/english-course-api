@@ -3,9 +3,11 @@ import { PresentPerfect } from "../../entities/PresentPerfect";
 import { IPresentPerfectsRepository } from "../IPresentPerfectsRepository";
 
 class PresentPerfectsRepository implements IPresentPerfectsRepository {
-  async getAll(): Promise<Array<PresentPerfect>> {
+  async getByTypeId(typeId: number): Promise<Array<PresentPerfect>> {
     const promise = await new Promise<Array<PresentPerfect>>((resolve) => {
-      resolve(PresentPerfectsDatabase);
+      const arr = PresentPerfectsDatabase.filter((pp) => pp.typeId === typeId);
+
+      resolve(arr);
     });
 
     return promise;

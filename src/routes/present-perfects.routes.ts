@@ -1,10 +1,11 @@
 import { Router } from "express";
 
-import { GetAllPresentPerfectsController } from "../modules/presentPerfects/useCases/getAll";
+import { GetAllPresentPerfectTypesController } from "../modules/presentPerfects/useCases/getAllPresentPerfectTypes";
 
 const presentPerfetcRoutes = Router();
 
-const getAllPresentPerfectsController = new GetAllPresentPerfectsController();
-presentPerfetcRoutes.get("/", getAllPresentPerfectsController.handle);
+const getAllPresentPerfectTypesController =
+  new GetAllPresentPerfectTypesController();
+presentPerfetcRoutes.get("/types", getAllPresentPerfectTypesController.handle);
 
 export { presentPerfetcRoutes };
