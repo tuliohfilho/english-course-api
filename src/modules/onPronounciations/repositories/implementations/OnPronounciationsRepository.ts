@@ -3,9 +3,13 @@ import { OnPronounciation } from "../../entities/OnPronounciation";
 import { IOnPronounciationsRepository } from "../IOnPronounciationsRepository";
 
 class OnPronounciationsRepository implements IOnPronounciationsRepository {
-  async getAll(): Promise<Array<OnPronounciation>> {
+  async getByTypeId(typeId: number): Promise<Array<OnPronounciation>> {
     const promise = await new Promise<Array<OnPronounciation>>((resolve) => {
-      resolve(OnPronounciationsDatabase);
+      const arr = OnPronounciationsDatabase.filter(
+        (op) => op.typeId === typeId
+      );
+
+      resolve(arr);
     });
 
     return promise;

@@ -16,12 +16,12 @@ class GetAllPresentPerfectTypesUseCase {
   async execute(): Promise<Array<PresentPerfectType>> {
     const all = await this.repository.getAll();
 
-    const promises = all.map(async (ppType): Promise<PresentPerfectType> => {
+    const promises = all.map(async (type): Promise<PresentPerfectType> => {
       const presentPerfects = await this.presentPerfectsRepository.getByTypeId(
-        ppType.id
+        type.id
       );
 
-      return { ...ppType, presentPerfects };
+      return { ...type, presentPerfects };
     });
 
     return Promise.all(promises);

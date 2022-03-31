@@ -1,7 +1,7 @@
 import { OnPronounciation } from "../entities/OnPronounciation";
 
 interface IOnPronounciationsRepository {
-  getAll(): Promise<Array<OnPronounciation>>;
+  getByTypeId(typeId: number): Promise<Array<OnPronounciation>>;
 }
 
 export { IOnPronounciationsRepository };

@@ -1,11 +1,11 @@
 import { Response, Request } from "express";
 import { container } from "tsyringe";
 
-import { GetAllOnPronounciationsUseCase } from "./UserCase";
+import { GetAllOnPronounciationTypesUseCase } from "./UserCase";
 
 class GetAllOnPronounciationsController {
   async handle(request: Request, response: Response): Promise<Response> {
-    const service = container.resolve(GetAllOnPronounciationsUseCase);
+    const service = container.resolve(GetAllOnPronounciationTypesUseCase);
 
     const OnPronounciations = await service.execute();
 

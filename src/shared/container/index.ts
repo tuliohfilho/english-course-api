@@ -3,7 +3,9 @@ import { container } from "tsyringe";
 import { IIrregularVerbsRepository } from "../../modules/irregularVerbs/repositories/IIrregularVerbsRepository";
 import { IrregularVerbsRepository } from "../../modules/irregularVerbs/repositories/implementations/IrregularVerbsRepository";
 import { OnPronounciationsRepository } from "../../modules/onPronounciations/repositories/implementations/OnPronounciationsRepository";
+import { OnPronounciationTypesRepository } from "../../modules/onPronounciations/repositories/implementations/OnPronounciationTypesRepository";
 import { IOnPronounciationsRepository } from "../../modules/onPronounciations/repositories/IOnPronounciationsRepository";
+import { IOnPronounciationTypesRepository } from "../../modules/onPronounciations/repositories/IOnPronounciationTypesRepository";
 import { PresentPerfectsRepository } from "../../modules/presentPerfects/repositories/implementations/PresentPerfectsRepository";
 import { PresentPerfectTypesRepository } from "../../modules/presentPerfects/repositories/implementations/PresentPerfectTypesRepository";
 import { IPresentPerfectsRepository } from "../../modules/presentPerfects/repositories/IPresentPerfectsRepository";
@@ -23,6 +25,11 @@ container.registerSingleton<IIrregularVerbsRepository>(
 container.registerSingleton<IOnPronounciationsRepository>(
   "OnPronounciationsRepository",
   OnPronounciationsRepository
+);
+
+container.registerSingleton<IOnPronounciationTypesRepository>(
+  "OnPronounciationTypesRepository",
+  OnPronounciationTypesRepository
 );
 
 container.registerSingleton<IPresentPerfectsRepository>(
