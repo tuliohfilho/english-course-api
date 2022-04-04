@@ -28,11 +28,11 @@
         }
       }
     },
-    "/on-pronounciation": {
+    "/on-pronounciation/types": {
       "get": {
         "tags": ["On Pronounciation"],
-        "summary": "List on pronounctiatons",
-        "description": "List on pronounciation to simples present and simple past tense",
+        "summary": "List on pronounctiatons types",
+        "description": "List on pronounciations types simples present and simple past tense",
         "responses": {
           "200": {
             "description": "Success",
@@ -41,7 +41,84 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/OnPronounciation"
+                    "$ref": "#/components/schemas/OnPronounciationType"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/present-perfect/types": {
+      "get": {
+        "tags": ["Present Perfect"],
+        "summary": "List present perfect types",
+        "description": "List present perfect types",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PresentPerfectType"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/pronoun/categories": {
+      "get": {
+        "tags": ["Pronoun"],
+        "summary": "List pronoun categories",
+        "description": "List pronoun categoreis",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PronounCategory"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/pronoun/category/{categoryId}/types": {
+      "get": {
+        "tags": ["Pronoun"],
+        "summary": "List all pronoun types from category",
+        "description": "List all pronoun types from category by categoryId",
+        "parameters": [
+          {
+            "name": "categoryId",
+            "in": "path",
+            "description": "ID of category to find all types",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PronounType"
                   }
                 }
               }
@@ -83,6 +160,30 @@
           }
         }
       },
+      "OnPronounciationType": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "number",
+            "required": "true"
+          },
+          "title": {
+            "type": "string",
+            "required": "true"
+          },
+          "description": {
+            "type": "string",
+            "required": "true"
+          },
+          "onPronounciations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OnPronounciation"
+            }
+          }
+        }
+      },
       "OnPronounciation": {
         "type": "object",
         "properties": {
@@ -111,6 +212,129 @@
           "pronounciation": {
             "type": "string",
             "required": "true"
+          }
+        }
+      },
+      "PresentPerfectType": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "number",
+            "required": "true"
+          },
+          "title": {
+            "type": "string",
+            "required": "true"
+          },
+          "description": {
+            "type": "string",
+            "required": "true"
+          },
+          "presentPerfects": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PresentPerfect"
+            }
+          }
+        }
+      },
+      "PresentPerfect": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "number",
+            "required": "true"
+          },
+          "typeId": {
+            "type": "string",
+            "format": "number",
+            "required": "true"
+          },
+          "verb": {
+            "type": "string",
+            "required": "true"
+          },
+          "subject": {
+            "type": "string",
+            "required": "true"
+          },
+          "auxiliaryVerb": {
+            "type": "string",
+            "required": "true"
+          }
+        }
+      },
+      "PronounCategory": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "number",
+            "required": "true"
+          },
+          "title": {
+            "type": "string",
+            "required": "true"
+          },
+          "description": {
+            "type": "string",
+            "required": "true"
+          }
+        }
+      },
+      "PronounType": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "number",
+            "required": "true"
+          },
+          "categoryId": {
+            "type": "string",
+            "format": "number",
+            "required": "true"
+          },
+          "title": {
+            "type": "string",
+            "required": "true"
+          },
+          "description": {
+            "type": "string",
+            "required": "true"
+          },
+          "pronouns": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Pronoun"
+            }
+          }
+        }
+      },
+      "Pronoun": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "number",
+            "required": "true"
+          },
+          "typeId": {
+            "type": "string",
+            "format": "number",
+            "required": "true"
+          },
+          "subject": {
+            "type": "string",
+            "required": "true"
+          },
+          "translations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           }
         }
       }
