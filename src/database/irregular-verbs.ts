@@ -549,7 +549,7 @@ const IrregularVerbDatabase: Array<IrregularVerb> = [
     id: 69,
     translation: "Tomar / Levar / Pegar / Tirar",
     infinitve: "To take",
-    past: "Toke",
+    past: "Took",
     pastParticiple: "Taken",
     audioName: "to_take.mp3",
   }),
